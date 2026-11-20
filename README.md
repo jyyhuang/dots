@@ -1,4 +1,4 @@
-<h1 align="center">💖 Hyprlust 💖</h1>
+<h1 align="center">💖 My Dots 💖</h1>
 
 <div align="center">
 <img src="https://i.imgur.com/MXapNzU.png" height="auto" width="175"></img>
