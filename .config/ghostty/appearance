@@ -1,0 +1,13 @@
+font-family = Monocraft
+font-size = 14
+background-opacity = 0.8
+adw-toolbar-style = flat
+shell-integration-features = no-cursor
+window-padding-x = 10
+app-notifications = no-config-reload
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+gtk-custom-css = colors.css
+gtk-custom-css = tabs.css

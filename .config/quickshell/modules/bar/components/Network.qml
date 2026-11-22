@@ -30,7 +30,7 @@ Item {
         id: networkText
         text: root.wifiIcon
         anchors.centerIn: parent
-        color: Config.colors.color14
+        color: Config.colors.color1
         font.pixelSize: Config.font.fontSize
         font.family: Config.font.fontFamily
         font.bold: true
@@ -46,7 +46,7 @@ Item {
 
     Process {
         id: networkProcess
-        command: ["wezterm", "start", "--always-new-process", "nmtui"]
+        command: ["ghostty", "start", "--always-new-process", "nmtui"]
         running: false
         stdout: StdioCollector {
             onStreamFinished: {

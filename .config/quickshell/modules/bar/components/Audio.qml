@@ -31,7 +31,7 @@ Item {
             height: 24
             value: AudioService.volume / 100
             ringWidth: 4
-            ringColor: AudioService.muted ? Config.colors.color0 : Config.colors.color14
+            ringColor: AudioService.muted ? Config.colors.color0 : Config.colors.color1
             icon: volumeIcon
             onScrolled: delta => AudioService.setVolume(AudioService.volume + delta * 100)
             onClicked: AudioService.toggleMuted()
@@ -43,7 +43,7 @@ Item {
             height: 24
             value: AudioService.microphoneVolume / 100
             ringWidth: 4
-            ringColor: AudioService.microphoneMuted ? Config.colors.color0 : Config.colors.color14
+            ringColor: AudioService.microphoneMuted ? Config.colors.color0 : Config.colors.color1
             icon: AudioService.microphoneMuted ? Config.microphone.muted : Config.microphone.active
             onScrolled: delta => AudioService.setMicrophoneVolume(AudioService.microphoneVolume + delta * 100)
             onClicked: AudioService.toggleMicrophoneMuted()

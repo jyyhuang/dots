@@ -18,7 +18,7 @@ Item {
         id: timeText
         text: Qt.formatDateTime(clock.date, root.timeFormat)
         anchors.centerIn: parent
-        color: Config.colors.color14
+        color: Config.colors.color1
         font.pixelSize: Config.font.fontSize
         font.family: Config.font.fontFamily
         font.bold: true

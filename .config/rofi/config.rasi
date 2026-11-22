@@ -3,7 +3,7 @@ configuration {
   display-drun: " Apps ";
   display-run: "  Run ";
   display-Network: " 󰀂 Network";
-  terminal : "wezterm";
+  terminal : "ghostty";
   display-window: "Windows:";
   drun-display-format: "{name}";
   font: "Hack Nerd Font Bold 14";

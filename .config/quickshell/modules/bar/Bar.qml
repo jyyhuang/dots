@@ -24,7 +24,7 @@ PanelWindow {
 
         radius: 10
         border.width: 1
-        border.color: Config.colors.color14
+        border.color: Config.colors.color3
 
         RowLayout {
             anchors.left: parent.left

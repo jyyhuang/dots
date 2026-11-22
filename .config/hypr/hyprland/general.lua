@@ -1,4 +1,4 @@
-local colors = require("hyprland.colors-hyprland")
+require("hyprland.variables")
 
 -- monitors
 hl.monitor({
@@ -28,7 +28,7 @@ hl.config({
 		border_size = 3,
 
 		col = {
-			active_border = colors.color11,
+			active_border = colors.color3,
 			inactive_border = colors.background,
 		},
 
@@ -48,7 +48,7 @@ hl.config({
 			enabled = true,
 			range = 20,
 			offset = { 0, 2 },
-			render_power = 10,
+			render_power = 4,
 			color = colors.background,
 		},
 		blur = {

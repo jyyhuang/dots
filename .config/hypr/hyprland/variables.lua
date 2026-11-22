@@ -1,3 +1,3 @@
-colors = require("hyprland.colors-hyprland")
-terminal = "wezterm start --always-new-process"
+colors = require("hyprland.colors")
+terminal = "ghostty"
 menu = "rofi -show drun"

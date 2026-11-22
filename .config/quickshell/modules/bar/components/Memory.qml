@@ -40,7 +40,7 @@ Item {
         id: memoryText
         text: root.text
         anchors.centerIn: parent
-        color: Config.colors.color14
+        color: Config.colors.color1
         font.pixelSize: Config.font.fontSize
         font.family: Config.font.fontFamily
         font.bold: true

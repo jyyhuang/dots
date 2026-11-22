@@ -1,15 +1,15 @@
 #userimage {
-    border-color: #7B7087;
+    border-color: #3290A9;
     background-image:            url("/home/joey/wallpapers/miku.jpg", both);
 }
 
 #prompt{
-      text-color: #50778C;
+      text-color: #CCBCD0;
 }
 
 #message {
     background-color:           transparent;
-    text-color: #50778C;
+    text-color: #CCBCD0;
 }
 
 #window {
@@ -17,17 +17,17 @@
 }
 
 #textbox{
-    placeholder-color:           #50778C;
+    placeholder-color:           #CCBCD0;
 }
 
 #listview{
     background-color:            transparent;
-    text-color:                  #998D9C;
+    text-color:                  #1D4F6A;
 }
 
 #element {
     background-color:            transparent;
-    text-color:                  #CCBCD0;
+    text-color:                  #1D4F6A;
 }
 
 #element-text {
@@ -36,6 +36,6 @@
 }
 
 #element.selected.normal {
-    background-color:            #998D9C;
-    text-color:                  #04070D;
+    background-color:            #1D4F6A;
+    text-color:                  #05080F;
 }

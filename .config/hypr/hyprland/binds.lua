@@ -91,3 +91,5 @@ hl.bind(mainMod .. " + ALT + S", hl.dsp.exec_cmd("hyprshot -m region"))
 
 -- notification center
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs ipc call notifications toggle"))
+
+hl.bind("ALT + B", hl.dsp.exec_cmd("~/.config/ghostty/toggle-opacity.sh"))

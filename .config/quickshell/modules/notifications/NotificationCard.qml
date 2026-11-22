@@ -45,7 +45,7 @@ PanelWindow {
                 clip: true
                 color: Config.colors.background
                 border.width: 2
-                border.color: card.modelData.urgency === NotificationUrgency.Critical ? Config.colors.color13 : Config.colors.color14
+                border.color: card.modelData.urgency === NotificationUrgency.Critical ? Config.colors.color1 : Config.colors.color2
 
                 Flickable {
                     anchors.fill: parent
@@ -75,7 +75,7 @@ PanelWindow {
                             Text {
                                 Layout.fillWidth: true
                                 text: card.modelData.summary
-                                color: Config.colors.color12
+                                color: Config.colors.color3
                                 font.family: Config.font.fontFamily
                                 font.pixelSize: Config.font.fontSize
                                 font.bold: true
@@ -86,7 +86,7 @@ PanelWindow {
                                 Layout.fillWidth: true
                                 visible: text !== ""
                                 text: card.modelData.body
-                                color: Config.colors.color14
+                                color: Config.colors.color1
                                 font.family: Config.font.fontFamily
                                 font.pixelSize: Config.font.fontSize - 1
                                 wrapMode: Text.WordWrap

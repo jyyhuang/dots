@@ -20,7 +20,7 @@ Item {
         id: idleText
         anchors.centerIn: parent
         text: root.isEnabled ? Config.icons.idleInhibitorEnabled : Config.icons.idleInhibitorDisabled
-        color: Config.colors.color14
+        color: Config.colors.color1
         font.pixelSize: 14
         font.family: Config.font.fontFamily
         font.bold: true

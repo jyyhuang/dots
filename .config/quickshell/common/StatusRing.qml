@@ -6,8 +6,8 @@ Item {
     id: root
 
     property real value: 0
-    property color ringColor: Config.colors.color14
-    property color backgroundColor: Config.colors.color0
+    property color ringColor: Config.colors.color1
+    property color backgroundColor: Config.colors.background
     property real ringWidth: 3
     property real displayValue: value
     property string icon: ""

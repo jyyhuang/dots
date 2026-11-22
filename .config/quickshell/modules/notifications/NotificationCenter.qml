@@ -31,7 +31,7 @@ PanelWindow {
         radius: 10
         color: Config.colors.background
         border.width: 2
-        border.color: Config.colors.color14
+        border.color: Config.colors.color3
 
         ColumnLayout {
             id: notificationCenterCol
@@ -45,7 +45,7 @@ PanelWindow {
                 Text {
                     Layout.fillWidth: true
                     text: "Notifications"
-                    color: Config.colors.color13
+                    color: Config.colors.color3
                     font.family: Config.font.fontFamily
                     font.pixelSize: Config.font.fontSize + 2
                     font.bold: true
@@ -54,7 +54,7 @@ PanelWindow {
                 Text {
                     text: "Clear All"
                     visible: root.history.count > 0
-                    color: Config.colors.color14
+                    color: Config.colors.color2
                     font.family: Config.font.fontFamily
                     font.pixelSize: Config.font.fontSize - 1
                     MouseArea {
@@ -83,7 +83,7 @@ PanelWindow {
                     radius: 8
                     color: Config.colors.background
                     border.width: 2
-                    border.color: modelData.urgency === NotificationUrgency.Critical ? Config.colors.color13 : Config.colors.color14
+                    border.color: modelData.urgency === NotificationUrgency.Critical ? Config.colors.color1: Config.colors.color2
 
                     Flickable {
                         anchors.fill: parent
@@ -104,7 +104,7 @@ PanelWindow {
                                 Text {
                                     Layout.fillWidth: true
                                     text: centerCard.modelData.summary
-                                    color: Config.colors.color12
+                                    color: Config.colors.color3
                                     font.family: Config.font.fontFamily
                                     font.pixelSize: Config.font.fontSize
                                     font.bold: true
@@ -113,14 +113,14 @@ PanelWindow {
 
                                 Text {
                                     text: centerCard.modelData.time
-                                    color: Config.colors.foreground
+                                    color: Config.colors.color1
                                     font.family: Config.font.fontFamily
                                     font.pixelSize: Config.font.fontSize - 3
                                 }
 
                                 Text {
                                     text: Config.icons.close
-                                    color: Config.colors.foreground
+                                    color: Config.colors.color1
                                     font.family: Config.font.fontFamily
                                     font.pixelSize: Config.font.fontSize - 1
                                     MouseArea {
@@ -134,7 +134,7 @@ PanelWindow {
                                 Layout.fillWidth: true
                                 visible: centerCard.modelData.body !== ""
                                 text: centerCard.modelData.body
-                                color: Config.colors.color14
+                                color: Config.colors.color1
                                 font.family: Config.font.fontFamily
                                 font.pixelSize: Config.font.fontSize - 1
                                 wrapMode: Text.WordWrap
@@ -143,7 +143,7 @@ PanelWindow {
                             Text {
                                 visible: centerCard.modelData.appName !== ""
                                 text: centerCard.modelData.appName
-                                color: Config.colors.color8
+                                color: Config.colors.color2
                                 font.family: Config.font.fontFamily
                                 font.pixelSize: Config.font.fontSize - 3
                             }
@@ -155,7 +155,7 @@ PanelWindow {
             Text {
                 visible: root.history.count === 0
                 text: "No Notifications"
-                color: Config.colors.color8
+                color: Config.colors.color1
                 font.family: Config.font.fontFamily
                 font.pixelSize: Config.font.fontSize - 2
                 Layout.alignment: Qt.AlignHCenter

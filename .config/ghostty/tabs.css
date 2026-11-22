@@ -1,0 +1,40 @@
+headerbar,
+tabbar {
+  background-color: alpha(@background, 0.8);
+  box-shadow: none;
+}
+
+tabbar * {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+tabbar tabbox {
+  margin: 0;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 0;
+  min-height: 10px;
+  font-family: Monocraft;
+  font-size: 14px;
+}
+
+tabbar tabbox > separator {
+  background-color: @color1;
+}
+
+tabbar tab {
+  background-color: @background;
+  color: @color1;
+}
+
+tabbar tab:hover {
+  background-color: alpha(@color1, 0.8);
+  color: alpha(@background, 0.8);
+}
+
+tabbar tab:selected {
+  background-color: @color1;
+  color: @background;
+}

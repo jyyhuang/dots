@@ -16,7 +16,7 @@ Item {
     Text {
         anchors.centerIn: parent
         text: root.workspaceId
-        color: root.isFocused ? Config.colors.color13 : root.hasTopLevels ? Config.colors.color3 : Config.colors.foreground
+        color: root.isFocused ? Config.colors.color1 : root.hasTopLevels ? Config.colors.color3 : Config.colors.foreground
         font.pixelSize: Config.font.fontSize
         font.family: Config.font.fontFamily
         font.bold: true
