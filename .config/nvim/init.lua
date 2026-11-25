@@ -1,4 +1,7 @@
-require("vim._core.ui2").enable({})
-require("options")
-require("remap")
-require("plugins")
+vim.loader.enable()
+
+require("config.options")
+require("config.keymaps")
+require("config.autocmds")
+require("config.ui2")
+require("config.pack")
